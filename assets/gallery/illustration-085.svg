@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 256 256" width="256" height="256" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <clipPath id="roof-clip">
+      <path d="M 128 30 L 50 84 L 206 84 Z" />
+    </clipPath>
+  </defs>
+
+  <g id="base">
+
+    <path d="M 64 176 A 64 16 0 0 1 192 176 L 192 182 A 64 16 0 0 0 64 182 Z" fill="#475569" stroke="#1E293B" stroke-width="8" stroke-linejoin="round" />
+
+
+    <ellipse cx="128" cy="182" rx="56" ry="10" fill="#3B82F6" stroke="#1E293B" stroke-width="4" />
+
+
+    <path d="M 80 182 Q 90 178 100 182" fill="none" stroke="#93C5FD" stroke-width="2" stroke-linecap="round" />
+    <path d="M 156 184 Q 166 180 176 184" fill="none" stroke="#93C5FD" stroke-width="2" stroke-linecap="round" />
+
+
+    <path d="M 64 176 L 64 224 A 64 16 0 0 0 192 224 L 192 176 A 64 16 0 0 1 64 176 Z" fill="#94A3B8" stroke="#1E293B" stroke-width="8" stroke-linejoin="round" />
+
+
+    <path d="M 64 192 A 64 16 0 0 0 192 192" fill="none" stroke="#1E293B" stroke-width="6" stroke-linecap="round" />
+    <path d="M 64 208 A 64 16 0 0 0 192 208" fill="none" stroke="#1E293B" stroke-width="6" stroke-linecap="round" />
+
+
+
+    <path d="M 96 190 L 96 206 M 160 190 L 160 206" fill="none" stroke="#1E293B" stroke-width="6" stroke-linecap="round" />
+
+    <path d="M 128 208 L 128 224 M 76 201 L 76 217 M 180 201 L 180 217" fill="none" stroke="#1E293B" stroke-width="6" stroke-linecap="round" />
+
+    <path d="M 104 223 L 104 239 M 152 223 L 152 239" fill="none" stroke="#1E293B" stroke-width="6" stroke-linecap="round" />
+
+
+    <path d="M 45 225 Q 55 215 65 230 M 55 235 Q 65 225 75 235" fill="none" stroke="#16A34A" stroke-width="4" stroke-linecap="round" />
+    <path d="M 185 235 Q 195 225 205 235 M 195 230 Q 205 215 215 225" fill="none" stroke="#16A34A" stroke-width="4" stroke-linecap="round" />
+  </g>
+
+  <g id="left_pillar">
+    <rect x="70" y="80" width="16" height="92" rx="4" fill="#A16207" stroke="#1E293B" stroke-width="6" />
+
+    <path d="M 76 88 L 76 164 M 80 92 L 80 160" stroke="#713F12" stroke-width="2" stroke-linecap="round" />
+  </g>
+
+  <g id="right_pillar">
+    <rect x="170" y="80" width="16" height="92" rx="4" fill="#A16207" stroke="#1E293B" stroke-width="6" />
+
+    <path d="M 176 88 L 176 164 M 180 92 L 180 160" stroke="#713F12" stroke-width="2" stroke-linecap="round" />
+  </g>
+
+  <g id="spindle">
+
+    <rect x="82" y="100" width="92" height="12" rx="4" fill="#854D0E" stroke="#1E293B" stroke-width="6" />
+
+
+    <path d="M 174 106 L 196 106 L 196 128 L 206 128" fill="none" stroke="#1E293B" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+    <line x1="196" y1="128" x2="206" y2="128" stroke="#F59E0B" stroke-width="4" stroke-linecap="round" />
+  </g>
+
+  <g id="rope">
+
+    <path d="M 116 100 L 116 112 M 122 100 L 122 112 M 128 100 L 128 112 M 134 100 L 134 112" stroke="#1E293B" stroke-width="5" stroke-linecap="round" />
+    <path d="M 116 100 L 116 112 M 122 100 L 122 112 M 128 100 L 128 112 M 134 100 L 134 112" stroke="#FCD34D" stroke-width="3" stroke-linecap="round" />
+
+
+    <line x1="128" y1="112" x2="128" y2="150" stroke="#1E293B" stroke-width="6" stroke-linecap="round" />
+    <line x1="128" y1="112" x2="128" y2="150" stroke="#FCD34D" stroke-width="3" stroke-linecap="round" />
+
+
+    <path d="M 128 116 L 128 118 M 128 124 L 128 126 M 128 132 L 128 134 M 128 140 L 128 142" stroke="#B45309" stroke-width="3" stroke-linecap="round" />
+  </g>
+
+  <g id="bucket_body">
+
+    <path d="M 112 156 C 112 140, 144 140, 144 156" fill="none" stroke="#1E293B" stroke-width="6" stroke-linecap="round" />
+    <path d="M 112 156 C 112 140, 144 140, 144 156" fill="none" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" />
+
+
+    <path d="M 112 154 L 116 182 A 12 4 0 0 0 140 182 L 144 154 A 16 4 0 0 1 112 154 Z" fill="#A16207" stroke="#1E293B" stroke-width="6" stroke-linejoin="round" />
+
+
+    <ellipse cx="128" cy="154" rx="16" ry="4" fill="#334155" stroke="#1E293B" stroke-width="4" />
+
+
+    <path d="M 122 158 L 124 184 M 134 158 L 132 184" stroke="#713F12" stroke-width="2" stroke-linecap="round" />
+
+
+    <circle cx="112" cy="156" r="3" fill="#94A3B8" stroke="#1E293B" stroke-width="2" />
+    <circle cx="144" cy="156" r="3" fill="#94A3B8" stroke="#1E293B" stroke-width="2" />
+  </g>
+
+  <g id="bucket_band_bottom">
+    <path d="M 115 176 Q 128 180 141 176" fill="none" stroke="#1E293B" stroke-width="4" stroke-linecap="round" />
+    <path d="M 115 176 Q 128 180 141 176" fill="none" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" />
+  </g>
+
+  <g id="roof">
+
+    <rect x="66" y="74" width="124" height="10" rx="3" fill="#713F12" stroke="#1E293B" stroke-width="6" />
+
+
+    <path d="M 128 30 L 50 84 L 206 84 Z" fill="#B45309" stroke="#1E293B" stroke-width="6" stroke-linejoin="round" />
+
+
+    <g clip-path="url(#roof-clip)">
+      <line x1="0" y1="45" x2="256" y2="45" stroke="#92400E" stroke-width="4" />
+      <line x1="0" y1="60" x2="256" y2="60" stroke="#92400E" stroke-width="4" />
+      <line x1="0" y1="75" x2="256" y2="75" stroke="#92400E" stroke-width="4" />
+
+      <line x1="128" y1="30" x2="128" y2="45" stroke="#92400E" stroke-width="4" />
+      <line x1="100" y1="45" x2="100" y2="60" stroke="#92400E" stroke-width="4" />
+      <line x1="156" y1="45" x2="156" y2="60" stroke="#92400E" stroke-width="4" />
+      <line x1="80" y1="60" x2="80" y2="75" stroke="#92400E" stroke-width="4" />
+      <line x1="128" y1="60" x2="128" y2="75" stroke="#92400E" stroke-width="4" />
+      <line x1="176" y1="60" x2="176" y2="75" stroke="#92400E" stroke-width="4" />
+    </g>
+
+
+    <path d="M 128 30 L 50 84 L 58 90 L 128 42 Z" fill="#F59E0B" stroke="#1E293B" stroke-width="6" stroke-linejoin="round" />
+    <path d="M 128 30 L 206 84 L 198 90 L 128 42 Z" fill="#D97706" stroke="#1E293B" stroke-width="6" stroke-linejoin="round" />
+
+
+    <circle cx="128" cy="36" r="8" fill="#854D0E" stroke="#1E293B" stroke-width="4" />
+  </g>
+
+  <g id="bucket_band_top">
+    <path d="M 113 160 Q 128 164 143 160" fill="none" stroke="#1E293B" stroke-width="4" stroke-linecap="round" />
+    <path d="M 113 160 Q 128 164 143 160" fill="none" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" />
+  </g>
+</svg>

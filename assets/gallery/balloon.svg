@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 256 256" width="256" height="256" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="balloon-vol" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.4" />
+      <stop offset="40%" stop-color="#ffffff" stop-opacity="0" />
+      <stop offset="80%" stop-color="#000000" stop-opacity="0.1" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.5" />
+    </radialGradient>
+  </defs>
+
+  <g id="envelope">
+
+    <path d="M 128 16 C 180 16, 208 56, 208 96 C 208 144, 160 164, 144 176 L 112 176 C 96 164, 48 144, 48 96 C 48 56, 76 16, 128 16 Z" fill="#E63946" stroke="#1A1A1A" stroke-width="3" stroke-linejoin="round" />
+
+
+    <path d="M 128 16 C 170 16, 192 56, 192 96 C 192 144, 154 164, 141 176 L 115 176 C 102 164, 64 144, 64 96 C 64 56, 86 16, 128 16 Z" fill="#F1FAEE" stroke="#1A1A1A" stroke-width="3" stroke-linejoin="round" />
+
+
+    <path d="M 128 16 C 154 16, 168 56, 168 96 C 168 144, 144 164, 136 176 L 120 176 C 112 164, 88 144, 88 96 C 88 56, 102 16, 128 16 Z" fill="#1D3557" stroke="#1A1A1A" stroke-width="3" stroke-linejoin="round" />
+
+
+    <path d="M 128 16 C 138 16, 144 56, 144 96 C 144 144, 134 164, 131 176 L 125 176 C 122 164, 112 144, 112 96 C 112 56, 118 16, 128 16 Z" fill="#F4A261" stroke="#1A1A1A" stroke-width="3" stroke-linejoin="round" />
+
+
+    <path d="M 128 16 C 180 16, 208 56, 208 96 C 208 144, 160 164, 144 176 L 112 176 C 96 164, 48 144, 48 96 C 48 56, 76 16, 128 16 Z" fill="none" stroke="#1A1A1A" stroke-width="4" stroke-linejoin="round" />
+
+
+    <path d="M 128 16 C 180 16, 208 56, 208 96 C 208 144, 160 164, 144 176 L 112 176 C 96 164, 48 144, 48 96 C 48 56, 76 16, 128 16 Z" fill="url(#balloon-vol)" pointer-events="none" />
+
+
+    <ellipse cx="128" cy="176" rx="16" ry="6" fill="#E63946" stroke="#1A1A1A" stroke-width="3" />
+    <ellipse cx="128" cy="176" rx="10" ry="3" fill="#1A1A1A" />
+  </g>
+
+  <g id="basket">
+
+    <path d="M 108 202 L 148 202 L 142 232 C 142 236, 114 236, 114 232 Z" fill="#D4A373" stroke="#1A1A1A" stroke-width="3" stroke-linejoin="round" />
+
+
+    <path d="M 110 210 L 146 210 M 112 218 L 144 218 M 113 226 L 143 226" stroke="#BC6C25" stroke-width="2" stroke-linecap="round" />
+    <path d="M 116 202 L 118 232 M 124 202 L 125 234 M 132 202 L 131 234 M 140 202 L 138 232" stroke="#BC6C25" stroke-width="2" stroke-linecap="round" />
+
+
+    <path d="M 128 202 L 148 202 L 142 232 C 136 234, 128 234, 128 234 Z" fill="#000000" opacity="0.15" />
+
+
+    <rect x="104" y="196" width="48" height="6" rx="3" fill="#8B5A2B" stroke="#1A1A1A" stroke-width="3" />
+
+
+    <rect x="100" y="202" width="8" height="14" rx="4" fill="#F1FAEE" stroke="#1A1A1A" stroke-width="2" />
+    <line x1="104" y1="199" x2="104" y2="202" stroke="#1A1A1A" stroke-width="2" />
+
+
+    <rect x="148" y="202" width="8" height="14" rx="4" fill="#F1FAEE" stroke="#1A1A1A" stroke-width="2" />
+    <line x1="152" y1="199" x2="152" y2="202" stroke="#1A1A1A" stroke-width="2" />
+  </g>
+
+  <g id="ropes">
+
+
+
+    <line x1="112" y1="176" x2="108" y2="196" stroke="#1A1A1A" stroke-width="2" />
+    <line x1="120" y1="178" x2="120" y2="196" stroke="#1A1A1A" stroke-width="2" />
+    <line x1="136" y1="178" x2="136" y2="196" stroke="#1A1A1A" stroke-width="2" />
+    <line x1="144" y1="176" x2="148" y2="196" stroke="#1A1A1A" stroke-width="2" />
+
+
+
+
+
+    <rect x="122" y="180" width="12" height="6" rx="2" fill="#4A4E69" stroke="#1A1A1A" stroke-width="2" />
+
+
+    <line x1="122" y1="183" x2="120" y2="188" stroke="#1A1A1A" stroke-width="2" />
+    <line x1="134" y1="183" x2="136" y2="188" stroke="#1A1A1A" stroke-width="2" />
+  </g>
+</svg>

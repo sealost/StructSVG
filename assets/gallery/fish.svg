@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 256 256" width="256" height="256" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+
+    <radialGradient id="bg_water" cx="50%" cy="50%" r="75%">
+      <stop offset="0%" stop-color="#1A4B6B" />
+      <stop offset="60%" stop-color="#0D2B42" />
+      <stop offset="100%" stop-color="#061420" />
+    </radialGradient>
+    <linearGradient id="light_ray" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7DD3FC" stop-opacity="0.15" />
+      <stop offset="50%" stop-color="#BAE6FD" stop-opacity="0.05" />
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0" />
+    </linearGradient>
+
+
+    <linearGradient id="koi1_body_grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF5400" />
+      <stop offset="50%" stop-color="#FF0054" />
+      <stop offset="100%" stop-color="#9E0059" />
+    </linearGradient>
+    <clipPath id="k1_clip">
+      <path d="M 95,125 C 105,125 112,140 108,160 C 102,185 75,215 58,225 C 54,227 50,223 54,218 C 68,200 82,175 82,155 C 82,140 85,125 95,125 Z" />
+    </clipPath>
+
+
+    <linearGradient id="koi2_body_grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="70%" stop-color="#E0E1DD" />
+      <stop offset="100%" stop-color="#778DA9" />
+    </linearGradient>
+    <clipPath id="k2_clip">
+      <path d="M 145,115 C 135,115 128,100 132,80 C 138,55 165,25 182,15 C 186,13 190,17 186,22 C 172,40 158,65 158,85 C 158,100 155,115 145,115 Z" />
+    </clipPath>
+
+
+    <linearGradient id="k1_fin" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF5400" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.4" />
+    </linearGradient>
+    <linearGradient id="k2_fin" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.3" />
+    </linearGradient>
+
+
+    <radialGradient id="pad_grad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#52B788" />
+      <stop offset="80%" stop-color="#2D6A4F" />
+      <stop offset="100%" stop-color="#1B4332" />
+    </radialGradient>
+
+
+    <linearGradient id="lotus_pink" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#FF4D6D" />
+      <stop offset="100%" stop-color="#FFCCD5" />
+    </linearGradient>
+    <linearGradient id="lotus_pink_dark" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#C9184A" />
+      <stop offset="100%" stop-color="#FF8FA3" />
+    </linearGradient>
+
+
+    <linearGradient id="plant_grad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#1B4332" />
+      <stop offset="100%" stop-color="#52B788" />
+    </linearGradient>
+  </defs>
+
+  <g id="background">
+    <rect width="256" height="256" fill="url(#bg_water)" />
+
+
+    <path d="M 0,256 C 80,180 180,220 256,120 L 256,256 Z" fill="#0A2438" opacity="0.6" />
+    <path d="M 0,0 C 120,40 140,120 220,0 Z" fill="#1C4F70" opacity="0.3" />
+
+
+    <path d="M -20,-20 L 60,-20 L 276,196 L 276,276 L 196,276 L -20,60 Z" fill="url(#light_ray)" />
+    <path d="M 100,-20 L 140,-20 L 276,116 L 276,156 Z" fill="url(#light_ray)" />
+
+
+    <g stroke="#7DD3FC" fill="none" opacity="0.15" stroke-linecap="round">
+      <path d="M 20,60 Q 50,40 80,70 T 150,50" stroke-width="1.5" />
+      <path d="M 40,190 Q 90,230 140,180 T 240,210" stroke-width="2" />
+      <path d="M 0,120 Q 60,150 100,100 T 190,130" stroke-width="1" />
+      <path d="M 180,30 Q 210,60 240,20" stroke-width="1.2" />
+    </g>
+
+
+    <g fill="#BAE6FD" opacity="0.3">
+      <circle cx="35" cy="75" r="1.5" />
+      <circle cx="190" cy="30" r="1" />
+      <circle cx="230" cy="170" r="2" />
+      <circle cx="70" cy="230" r="1.5" />
+      <circle cx="140" cy="160" r="1" />
+      <circle cx="210" cy="100" r="1.2" />
+      <circle cx="50" cy="130" r="0.8" />
+      <circle cx="160" cy="220" r="1.5" />
+    </g>
+  </g>
+
+  <g id="koi_2_eye">
+
+  </g>
+
+  <g id="ripple_1">
+    <ellipse cx="50" cy="50" rx="25" ry="8" fill="none" stroke="#7DD3FC" stroke-width="1" opacity="0.3" />
+    <ellipse cx="50" cy="50" rx="15" ry="5" fill="none" stroke="#7DD3FC" stroke-width="1.5" opacity="0.5" />
+    <path d="M 25,50 A 25,8 0 0,1 75,50" fill="none" stroke="#FFFFFF" stroke-width="1" opacity="0.6" stroke-linecap="round" stroke-dasharray="12 6 4 6" />
+    <path d="M 35,50 A 15,5 0 0,0 65,50" fill="none" stroke="#FFFFFF" stroke-width="1.5" opacity="0.8" stroke-linecap="round" stroke-dasharray="8 4" />
+  </g>
+
+  <g id="ripple_2">
+    <ellipse cx="195" cy="192" rx="30" ry="10" fill="none" stroke="#7DD3FC" stroke-width="1" opacity="0.3" />
+    <ellipse cx="195" cy="192" rx="20" ry="6" fill="none" stroke="#7DD3FC" stroke-width="1.5" opacity="0.5" />
+    <path d="M 165,192 A 30,10 0 0,1 225,192" fill="none" stroke="#FFFFFF" stroke-width="1" opacity="0.6" stroke-linecap="round" stroke-dasharray="15 5 8 5" />
+    <path d="M 175,192 A 20,6 0 0,0 215,192" fill="none" stroke="#FFFFFF" stroke-width="1.5" opacity="0.8" stroke-linecap="round" stroke-dasharray="10 5" />
+  </g>
+
+  <g id="plant_2">
+    <path d="M 240,0 C 235,30 215,60 205,100 C 210,70 225,40 235,0 Z" fill="url(#plant_grad)" />
+    <path d="M 225,0 C 215,25 200,55 195,85 C 205,60 215,35 220,0 Z" fill="url(#plant_grad)" opacity="0.8" />
+    <path d="M 255,0 C 250,35 240,75 235,95 C 245,70 250,40 260,0 Z" fill="url(#plant_grad)" opacity="0.9" />
+    <path d="M 232,0 C 230,45 220,85 215,115 C 225,85 235,45 238,0 Z" fill="#2D6A4F" />
+  </g>
+
+  <g id="koi_1_fins">
+    <path d="M 83,135 C 70,135 55,145 60,155 C 65,160 75,150 82,145 Z" fill="url(#k1_fin)" />
+    <path d="M 107,135 C 120,135 135,145 130,155 C 125,160 115,150 108,145 Z" fill="url(#k1_fin)" />
+    <path d="M 95,155 C 110,165 100,190 80,200 C 85,185 90,170 95,155 Z" fill="url(#k1_fin)" />
+    <path d="M 78,175 C 65,180 60,190 65,195 C 70,195 75,185 80,180 Z" fill="url(#k1_fin)" />
+    <path d="M 98,170 C 110,175 115,185 110,190 C 105,190 100,180 95,175 Z" fill="url(#k1_fin)" />
+    <path d="M 58,220 C 40,220 25,235 35,245 C 45,240 50,230 58,225 C 65,240 80,245 85,235 C 75,230 65,220 58,220 Z" fill="url(#k1_fin)" />
+    <g stroke="#FFFFFF" stroke-width="0.8" fill="none" opacity="0.5" stroke-linecap="round">
+      <path d="M 82,138 Q 70,142 63,152 M 81,142 Q 72,146 67,154" />
+      <path d="M 108,138 Q 120,142 127,152 M 109,142 Q 118,146 123,154" />
+      <path d="M 93,160 Q 102,170 95,185 M 88,170 Q 95,180 85,192" />
+      <path d="M 55,223 Q 40,230 38,242 M 58,225 Q 50,235 52,240 M 62,223 Q 75,230 82,238 M 60,225 Q 65,235 70,240" />
+    </g>
+  </g>
+
+  <g id="koi_2_fins">
+    <path d="M 135,105 C 120,105 105,95 110,85 C 115,80 125,90 132,95 Z" fill="url(#k2_fin)" />
+    <path d="M 155,105 C 170,105 185,95 180,85 C 175,80 165,90 158,95 Z" fill="url(#k2_fin)" />
+    <path d="M 145,85 C 130,75 140,50 160,40 C 155,55 150,70 145,85 Z" fill="url(#k2_fin)" />
+    <path d="M 140,65 C 125,60 120,50 125,45 C 130,45 135,55 140,60 Z" fill="url(#k2_fin)" />
+    <path d="M 160,70 C 175,65 180,55 175,50 C 170,50 165,60 160,65 Z" fill="url(#k2_fin)" />
+    <path d="M 182,15 C 195,10 210,-5 200,-15 C 190,-10 185,0 180,10 C 170,-5 155,-10 150,0 C 160,5 170,10 182,15 Z" fill="url(#k2_fin)" />
+    <g stroke="#FFFFFF" stroke-width="0.8" fill="none" opacity="0.6" stroke-linecap="round">
+      <path d="M 133,102 Q 120,98 113,88 M 130,98 Q 122,92 118,85" />
+      <path d="M 157,102 Q 170,98 177,88 M 160,98 Q 168,92 172,85" />
+      <path d="M 147,80 Q 138,65 150,45 M 150,70 Q 142,55 155,42" />
+      <path d="M 180,12 Q 195,5 198,-10 M 182,10 Q 190,0 188,-5 M 178,12 Q 165,5 155,-2 M 180,10 Q 170,5 165,0" />
+    </g>
+  </g>
+
+  <g id="pad_2">
+    <path d="M 67,35 A 22,15 0 1,0 55,45 L 45,35 Z" fill="#081C15" opacity="0.4" transform="translate(0, 6)" />
+    <path d="M 67,35 A 22,15 0 1,0 55,45 L 45,35 Z" fill="url(#pad_grad)" stroke="#95D5B2" stroke-width="1" stroke-linejoin="round" />
+    <path d="M 45,35 L 23,35 M 45,35 L 30,24 M 45,35 L 42,20 M 45,35 L 58,23 M 45,35 L 30,45 M 45,35 L 42,50 M 45,35 L 52,48" stroke="#1B4332" stroke-width="0.8" opacity="0.6" stroke-linecap="round" />
+  </g>
+
+  <g id="pad_3">
+    <path d="M 192,215 A 20,14 0 1,0 182,225 L 172,215 Z" fill="#081C15" opacity="0.4" transform="translate(0, 6)" />
+    <path d="M 192,215 A 20,14 0 1,0 182,225 L 172,215 Z" fill="url(#pad_grad)" stroke="#95D5B2" stroke-width="1" stroke-linejoin="round" />
+    <path d="M 172,215 L 152,215 M 172,215 L 158,205 M 172,215 L 168,201 M 172,215 L 184,204 M 172,215 L 158,225 M 172,215 L 168,229 M 172,215 L 178,227" stroke="#1B4332" stroke-width="0.8" opacity="0.6" stroke-linecap="round" />
+  </g>
+
+  <g id="koi_1_body">
+    <path d="M 95,125 C 105,125 112,140 108,160 C 102,185 75,215 58,225 C 54,227 50,223 54,218 C 68,200 82,175 82,155 C 82,140 85,125 95,125 Z" fill="#000000" opacity="0.3" transform="translate(4, 8)" />
+    <path d="M 95,125 C 105,125 112,140 108,160 C 102,185 75,215 58,225 C 54,227 50,223 54,218 C 68,200 82,175 82,155 C 82,140 85,125 95,125 Z" fill="url(#koi1_body_grad)" />
+    <path d="M 95,125 C 105,125 112,140 108,160 C 102,185 75,215 58,225 C 54,227 50,223 54,218 C 68,200 82,175 82,155 C 82,140 85,125 95,125 Z" fill="none" stroke="#FFFFFF" stroke-width="2" opacity="0.3" />
+  </g>
+
+  <g id="koi_2_body">
+    <path d="M 145,115 C 135,115 128,100 132,80 C 138,55 165,25 182,15 C 186,13 190,17 186,22 C 172,40 158,65 158,85 C 158,100 155,115 145,115 Z" fill="#000000" opacity="0.3" transform="translate(4, 8)" />
+    <path d="M 145,115 C 135,115 128,100 132,80 C 138,55 165,25 182,15 C 186,13 190,17 186,22 C 172,40 158,65 158,85 C 158,100 155,115 145,115 Z" fill="url(#koi2_body_grad)" />
+    <path d="M 145,115 C 135,115 128,100 132,80 C 138,55 165,25 182,15 C 186,13 190,17 186,22 C 172,40 158,65 158,85 C 158,100 155,115 145,115 Z" fill="none" stroke="#FFFFFF" stroke-width="2" opacity="0.5" />
+  </g>
+
+  <g id="lotus_2_petals">
+    <path d="M 45,52 Q 30,48 26,40 Q 38,40 45,52 Z" fill="url(#lotus_pink_dark)" />
+    <path d="M 45,52 Q 60,48 64,40 Q 52,40 45,52 Z" fill="url(#lotus_pink_dark)" />
+    <path d="M 45,52 Q 34,40 38,28 Q 45,36 45,52 Z" fill="url(#lotus_pink_dark)" />
+    <path d="M 45,52 Q 56,40 52,28 Q 45,36 45,52 Z" fill="url(#lotus_pink_dark)" />
+    <path d="M 45,52 Q 34,52 30,44 Q 41,44 45,52 Z" fill="url(#lotus_pink)" />
+    <path d="M 45,52 Q 56,52 60,44 Q 49,44 45,52 Z" fill="url(#lotus_pink)" />
+    <path d="M 45,52 Q 37,40 41,30 Q 49,40 45,52 Z" fill="url(#lotus_pink)" />
+    <path d="M 45,52 Q 53,40 49,30 Q 37,40 45,52 Z" fill="url(#lotus_pink)" />
+    <path d="M 45,52 Q 39,44 45,34 Q 51,44 45,52 Z" fill="#FFF0F3" />
+    <path d="M 45,52 Q 36,56 31,52 Q 39,48 45,52 Z" fill="#FFF0F3" />
+    <path d="M 45,52 Q 54,56 59,52 Q 51,48 45,52 Z" fill="#FFF0F3" />
+    <path d="M 45,52 Q 42,44 45,36 M 45,52 Q 37,48 33,44 M 45,52 Q 53,48 57,44" stroke="#FF4D6D" stroke-width="0.5" fill="none" opacity="0.6" />
+  </g>
+
+  <g id="koi_1_pattern" clip-path="url(#k1_clip)">
+    <path d="M 85,120 C 105,125 115,145 95,150 C 85,152 75,140 85,120 Z" fill="#FFFFFF" opacity="0.95" />
+    <path d="M 75,165 C 95,160 110,175 95,190 C 80,205 65,180 75,165 Z" fill="#FFFFFF" opacity="0.95" />
+    <path d="M 55,205 C 70,200 80,215 65,225 C 55,230 45,215 55,205 Z" fill="#FFFFFF" opacity="0.95" />
+  </g>
+
+  <g id="plant_1">
+    <path d="M 10,256 C 15,220 35,190 45,150 C 40,180 25,210 15,256 Z" fill="url(#plant_grad)" />
+    <path d="M 25,256 C 35,230 50,200 55,170 C 45,195 35,220 30,256 Z" fill="url(#plant_grad)" opacity="0.8" />
+    <path d="M 0,256 C 5,220 15,180 20,160 C 10,185 5,215 -5,256 Z" fill="url(#plant_grad)" opacity="0.9" />
+    <path d="M 18,256 C 20,210 30,170 35,140 C 25,170 15,210 12,256 Z" fill="#2D6A4F" />
+  </g>
+
+  <g id="koi_2_pattern" clip-path="url(#k2_clip)">
+    <path d="M 130,105 C 150,115 165,95 145,85 C 135,80 120,95 130,105 Z" fill="#FF5400" opacity="0.9" />
+    <path d="M 145,70 C 165,75 175,55 155,45 C 140,35 130,60 145,70 Z" fill="#FF5400" opacity="0.9" />
+    <path d="M 165,35 C 180,40 190,20 175,10 C 165,0 155,25 165,35 Z" fill="#FF5400" opacity="0.9" />
+
+    <circle cx="140" cy="106" r="2" fill="#1A0B00" />
+    <circle cx="140" cy="106" r="1" fill="#000000" />
+    <circle cx="139.5" cy="105.5" r="0.5" fill="#FFFFFF" />
+
+    <circle cx="150" cy="106" r="2" fill="#1A0B00" />
+    <circle cx="150" cy="106" r="1" fill="#000000" />
+    <circle cx="149.5" cy="105.5" r="0.5" fill="#FFFFFF" />
+
+    <path d="M 142,114 Q 135,120 132,118" fill="none" stroke="#FFFFFF" stroke-width="1" stroke-linecap="round" />
+    <path d="M 148,114 Q 155,120 158,118" fill="none" stroke="#FFFFFF" stroke-width="1" stroke-linecap="round" />
+  </g>
+
+  <g id="pad_1">
+    <path d="M 235,140 A 25,20 0 1,0 225,152 L 210,140 Z" fill="#081C15" opacity="0.4" transform="translate(0, 8)" />
+    <path d="M 235,140 A 25,20 0 1,0 225,152 L 210,140 Z" fill="url(#pad_grad)" stroke="#95D5B2" stroke-width="1" stroke-linejoin="round" />
+    <path d="M 210,140 L 185,140 M 210,140 L 192,126 M 210,140 L 205,120 M 210,140 L 222,122 M 210,140 L 192,154 M 210,140 L 205,160 M 210,140 L 220,158" stroke="#1B4332" stroke-width="0.8" opacity="0.6" stroke-linecap="round" />
+  </g>
+
+  <g id="ripple_3">
+    <ellipse cx="125" cy="107" rx="20" ry="6" fill="none" stroke="#7DD3FC" stroke-width="1" opacity="0.3" />
+    <ellipse cx="125" cy="107" rx="12" ry="4" fill="none" stroke="#7DD3FC" stroke-width="1.5" opacity="0.5" />
+    <path d="M 105,107 A 20,6 0 0,1 145,107" fill="none" stroke="#FFFFFF" stroke-width="1" opacity="0.6" stroke-linecap="round" stroke-dasharray="10 4 5 4" />
+    <path d="M 113,107 A 12,4 0 0,0 137,107" fill="none" stroke="#FFFFFF" stroke-width="1.5" opacity="0.8" stroke-linecap="round" stroke-dasharray="6 3" />
+  </g>
+
+  <g id="lotus_2_center">
+    <circle cx="45" cy="52" r="4" fill="#FFD166" />
+    <circle cx="45" cy="52" r="2" fill="#F77F00" />
+    <path d="M 45,48 L 45,45 M 48,49 L 50,47 M 49,52 L 52,52 M 48,55 L 50,57 M 45,56 L 45,59 M 42,55 L 40,57 M 41,52 L 38,52 M 42,49 L 40,47" stroke="#FFD166" stroke-width="1" stroke-linecap="round" />
+    <path d="M 45,45 v0.1 M 50,47 v0.1 M 52,52 v0.1 M 50,57 v0.1 M 45,59 v0.1 M 40,57 v0.1 M 38,52 v0.1 M 40,47 v0.1" stroke="#F77F00" stroke-width="2" stroke-linecap="round" />
+  </g>
+
+  <g id="koi_1_eye">
+    <circle cx="90" cy="132" r="2" fill="#1A0B00" />
+    <circle cx="90" cy="132" r="1" fill="#000000" />
+    <circle cx="89.5" cy="131.5" r="0.5" fill="#FFFFFF" />
+
+    <circle cx="100" cy="132" r="2" fill="#1A0B00" />
+    <circle cx="100" cy="132" r="1" fill="#000000" />
+    <circle cx="99.5" cy="131.5" r="0.5" fill="#FFFFFF" />
+  </g>
+
+  <g id="lotus_1_petals">
+    <path d="M 210,115 Q 190,110 185,100 Q 200,100 210,115 Z" fill="url(#lotus_pink_dark)" />
+    <path d="M 210,115 Q 230,110 235,100 Q 220,100 210,115 Z" fill="url(#lotus_pink_dark)" />
+    <path d="M 210,115 Q 195,100 200,85 Q 210,95 210,115 Z" fill="url(#lotus_pink_dark)" />
+    <path d="M 210,115 Q 225,100 220,85 Q 210,95 210,115 Z" fill="url(#lotus_pink_dark)" />
+    <path d="M 210,115 Q 195,115 190,105 Q 205,105 210,115 Z" fill="url(#lotus_pink)" />
+    <path d="M 210,115 Q 225,115 230,105 Q 215,105 210,115 Z" fill="url(#lotus_pink)" />
+    <path d="M 210,115 Q 200,100 205,88 Q 215,100 210,115 Z" fill="url(#lotus_pink)" />
+    <path d="M 210,115 Q 220,100 215,88 Q 205,100 210,115 Z" fill="url(#lotus_pink)" />
+    <path d="M 210,115 Q 202,105 210,92 Q 218,105 210,115 Z" fill="#FFF0F3" />
+    <path d="M 210,115 Q 198,120 192,115 Q 202,110 210,115 Z" fill="#FFF0F3" />
+    <path d="M 210,115 Q 222,120 228,115 Q 218,110 210,115 Z" fill="#FFF0F3" />
+    <path d="M 210,115 Q 206,105 210,95 M 210,115 Q 200,110 195,105 M 210,115 Q 220,110 225,105" stroke="#FF4D6D" stroke-width="0.5" fill="none" opacity="0.6" />
+  </g>
+
+  <g id="lotus_1_center">
+    <circle cx="210" cy="115" r="6" fill="#FFD166" />
+    <circle cx="210" cy="115" r="3" fill="#F77F00" />
+    <path d="M 210,109 L 210,105 M 214,111 L 217,108 M 216,115 L 220,115 M 214,119 L 217,122 M 210,121 L 210,125 M 206,119 L 203,122 M 204,115 L 200,115 M 206,111 L 203,108" stroke="#FFD166" stroke-width="1.5" stroke-linecap="round" />
+    <path d="M 210,105 v0.1 M 217,108 v0.1 M 220,115 v0.1 M 217,122 v0.1 M 210,125 v0.1 M 203,122 v0.1 M 200,115 v0.1 M 203,108 v0.1" stroke="#F77F00" stroke-width="2.5" stroke-linecap="round" />
+  </g>
+</svg>
