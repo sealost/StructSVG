@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 256 256" width="256" height="256" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <clipPath id="abdomen_clip">
+      <ellipse cx="136" cy="62" rx="10" ry="10" />
+    </clipPath>
+  </defs>
+
+
+  <path id="stem" d="M 128 140 L 128 256" fill="none" stroke="#16a34a" stroke-width="8" stroke-linecap="round" />
+
+
+  <g id="leaf_left">
+    <path d="M 128 190 Q 104 170 84 190 Q 104 210 128 190 Z" fill="#4ade80" stroke="#16a34a" stroke-width="4" stroke-linejoin="round" />
+    <path d="M 124 190 Q 104 185 92 190" fill="none" stroke="#16a34a" stroke-width="3" stroke-linecap="round" />
+  </g>
+
+
+  <g id="leaf_right">
+    <path d="M 128 200 Q 152 180 172 200 Q 152 220 128 200 Z" fill="#4ade80" stroke="#16a34a" stroke-width="4" stroke-linejoin="round" />
+    <path d="M 132 200 Q 152 195 164 200" fill="none" stroke="#16a34a" stroke-width="3" stroke-linecap="round" />
+  </g>
+
+
+  <g id="petals">
+
+    <g fill="#f472b6" stroke="#be185d" stroke-width="6" stroke-linejoin="round">
+      <ellipse cx="152" cy="130" rx="24" ry="12" transform="rotate(0 152 130)" />
+      <ellipse cx="140" cy="148" rx="24" ry="12" transform="rotate(60 140 148)" />
+      <ellipse cx="116" cy="148" rx="24" ry="12" transform="rotate(120 116 148)" />
+      <ellipse cx="104" cy="130" rx="24" ry="12" transform="rotate(180 104 130)" />
+      <ellipse cx="116" cy="112" rx="24" ry="12" transform="rotate(240 116 112)" />
+      <ellipse cx="140" cy="112" rx="24" ry="12" transform="rotate(300 140 112)" />
+    </g>
+    <g fill="#f472b6">
+      <ellipse cx="152" cy="130" rx="24" ry="12" transform="rotate(0 152 130)" />
+      <ellipse cx="140" cy="148" rx="24" ry="12" transform="rotate(60 140 148)" />
+      <ellipse cx="116" cy="148" rx="24" ry="12" transform="rotate(120 116 148)" />
+      <ellipse cx="104" cy="130" rx="24" ry="12" transform="rotate(180 104 130)" />
+      <ellipse cx="116" cy="112" rx="24" ry="12" transform="rotate(240 116 112)" />
+      <ellipse cx="140" cy="112" rx="24" ry="12" transform="rotate(300 140 112)" />
+    </g>
+
+    <g fill="none" stroke="#be185d" stroke-width="2" stroke-linecap="round" opacity="0.4">
+      <path d="M 128 130 L 164 130" />
+      <path d="M 128 130 L 146 152" />
+      <path d="M 128 130 L 110 152" />
+      <path d="M 128 130 L 92 130" />
+      <path d="M 128 130 L 110 108" />
+      <path d="M 128 130 L 146 108" />
+    </g>
+  </g>
+
+
+  <g id="bee_abdomen">
+    <ellipse cx="136" cy="62" rx="10" ry="10" fill="#fde047" stroke="#27272a" stroke-width="4" />
+    <g clip-path="url(#abdomen_clip)">
+      <path d="M 132 50 L 132 75" stroke="#27272a" stroke-width="4" />
+      <path d="M 140 50 L 140 75" stroke="#27272a" stroke-width="4" />
+    </g>
+    <ellipse cx="136" cy="62" rx="10" ry="10" fill="none" stroke="#27272a" stroke-width="4" />
+  </g>
+
+
+  <ellipse id="bee_thorax" cx="118" cy="62" rx="8" ry="8" fill="#f59e0b" stroke="#27272a" stroke-width="4" />
+
+
+  <g id="bee_head">
+    <ellipse cx="104" cy="62" rx="6" ry="6" fill="#27272a" stroke="#27272a" stroke-width="4" />
+    <circle cx="101" cy="60" r="1.5" fill="#ffffff" />
+  </g>
+
+
+  <g id="bee_wing_front">
+    <path d="M 120 54 C 116 35, 124 30, 130 35 C 132 45, 126 50, 120 54 Z" fill="#e0f2fe" stroke="#0284c7" stroke-width="3" opacity="0.8" stroke-linejoin="round" />
+    <path d="M 120 54 C 122 45, 126 40, 128 36" fill="none" stroke="#0284c7" stroke-width="1.5" opacity="0.5" />
+  </g>
+
+
+  <path id="bee_antenna" d="M 102 58 Q 95 50 90 52 M 104 56 Q 96 48 92 48" fill="none" stroke="#27272a" stroke-width="3" stroke-linecap="round" />
+
+
+  <path id="bee_stinger" d="M 146 62 L 154 62" fill="none" stroke="#27272a" stroke-width="3" stroke-linecap="round" />
+
+
+  <g id="flower_center">
+    <ellipse cx="128" cy="130" rx="16" ry="14" fill="#fbbf24" stroke="#b45309" stroke-width="4" />
+    <g fill="#b45309" opacity="0.7">
+      <circle cx="124" cy="126" r="2" />
+      <circle cx="132" cy="128" r="2" />
+      <circle cx="126" cy="134" r="2" />
+      <circle cx="134" cy="134" r="2" />
+      <circle cx="120" cy="130" r="1.5" />
+      <circle cx="128" cy="122" r="1.5" />
+    </g>
+  </g>
+
+
+  <g id="bee_wing_back">
+    <path d="M 130 54 C 134 38, 144 34, 146 40 C 146 48, 138 52, 130 54 Z" fill="#bae6fd" stroke="#0284c7" stroke-width="3" opacity="0.9" stroke-linejoin="round" />
+    <path d="M 130 54 C 136 46, 140 42, 144 40" fill="none" stroke="#0284c7" stroke-width="1.5" opacity="0.5" />
+  </g>
+</svg>

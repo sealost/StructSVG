@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 256 256" width="256" height="256" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e0f2fe" />
+      <stop offset="100%" stop-color="#f8fafc" />
+    </linearGradient>
+    <linearGradient id="grass_grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4ade80" />
+      <stop offset="100%" stop-color="#16a34a" />
+    </linearGradient>
+    <linearGradient id="wood" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#78350f" />
+      <stop offset="20%" stop-color="#92400e" />
+      <stop offset="80%" stop-color="#b45309" />
+      <stop offset="100%" stop-color="#78350f" />
+    </linearGradient>
+    <linearGradient id="metal" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f1f5f9" />
+      <stop offset="20%" stop-color="#cbd5e1" />
+      <stop offset="60%" stop-color="#94a3b8" />
+      <stop offset="100%" stop-color="#475569" />
+    </linearGradient>
+    <linearGradient id="metal_dark" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#94a3b8" />
+      <stop offset="100%" stop-color="#334155" />
+    </linearGradient>
+    <linearGradient id="flag_red" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f87171" />
+      <stop offset="100%" stop-color="#b91c1c" />
+    </linearGradient>
+    <radialGradient id="bird_grad" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#93c5fd" />
+      <stop offset="50%" stop-color="#3b82f6" />
+      <stop offset="100%" stop-color="#1e40af" />
+    </radialGradient>
+  </defs>
+
+
+  <rect width="256" height="256" fill="url(#sky)" />
+
+
+  <g fill="#ffffff" opacity="0.7">
+    <path d="M 40 80 A 12 12 0 0 1 40 56 A 16 16 0 0 1 70 50 A 14 14 0 0 1 96 64 A 12 12 0 0 1 96 80 Z" />
+    <path d="M 190 110 A 10 10 0 0 1 190 90 A 14 14 0 0 1 216 86 A 12 12 0 0 1 236 98 A 10 10 0 0 1 236 110 Z" opacity="0.8" />
+  </g>
+
+  <g id="mailbox_post">
+
+    <path d="M 50 256 Q 70 210 95 235 Q 120 195 145 235 Q 170 210 190 256 Z" fill="#166534" stroke="#1e293b" stroke-width="4" stroke-linejoin="round" />
+
+
+    <rect x="116" y="154" width="24" height="102" fill="url(#wood)" stroke="#1e293b" stroke-width="4" />
+
+
+    <path d="M 122 154 Q 120 180 124 210 T 122 256" fill="none" stroke="#451a03" stroke-width="1.5" opacity="0.5" />
+    <path d="M 128 154 Q 132 190 128 230 T 130 256" fill="none" stroke="#451a03" stroke-width="1.5" opacity="0.5" />
+    <path d="M 134 154 Q 132 170 136 200 T 134 256" fill="none" stroke="#451a03" stroke-width="1.5" opacity="0.5" />
+    <ellipse cx="128" cy="180" rx="2.5" ry="5" fill="none" stroke="#451a03" stroke-width="1.5" opacity="0.5" />
+
+
+    <rect x="116" y="154" width="24" height="12" fill="#1e293b" opacity="0.4" />
+
+
+    <path d="M 60 256 Q 80 225 105 245 Q 128 210 150 245 Q 175 225 195 256 Z" fill="url(#grass_grad)" stroke="#1e293b" stroke-width="4" stroke-linejoin="round" />
+
+
+    <path d="M 95 256 Q 92 235 88 230 M 110 256 Q 106 240 102 235 M 145 256 Q 150 235 155 230 M 160 256 Q 165 240 168 235" fill="none" stroke="#1e293b" stroke-width="2.5" stroke-linecap="round" />
+
+
+    <ellipse cx="90" cy="250" rx="6" ry="4" fill="#94a3b8" stroke="#1e293b" stroke-width="2" />
+    <ellipse cx="166" cy="252" rx="5" ry="3" fill="#64748b" stroke="#1e293b" stroke-width="2" />
+  </g>
+
+  <g id="mailbox_box">
+
+    <rect x="74" y="146" width="108" height="8" rx="3" fill="#64748b" stroke="#1e293b" stroke-width="4" />
+    <rect x="76" y="148" width="104" height="2" fill="#ffffff" opacity="0.3" />
+
+
+    <path d="M 78 146 L 178 146 L 178 88 L 128 88 A 50 30 0 0 0 78 118 Z" fill="url(#metal)" stroke="#1e293b" stroke-width="4" stroke-linejoin="round" />
+
+
+    <path d="M 78 118 A 50 30 0 0 1 128 88 L 178 88" fill="none" stroke="#ffffff" stroke-width="4" opacity="0.5" />
+
+
+    <rect x="96" y="124" width="44" height="14" rx="2" fill="none" stroke="#1e293b" stroke-width="2" opacity="0.2" />
+    <rect x="96" y="125" width="44" height="14" rx="2" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.4" />
+    <line x1="102" y1="131" x2="134" y2="131" stroke="#1e293b" stroke-width="2" stroke-linecap="round" opacity="0.2" />
+    <line x1="102" y1="132" x2="134" y2="132" stroke="#ffffff" stroke-width="2" stroke-linecap="round" opacity="0.4" />
+
+
+    <path d="M 100 93 L 124 89 L 120 95 L 104 97 Z" fill="#1e293b" opacity="0.25" />
+
+
+    <path d="M 147 146 L 153 146 L 145 88 L 139 88 Z" fill="#1e293b" opacity="0.15" />
+
+
+    <circle cx="82" cy="150" r="1.5" fill="#1e293b" />
+    <circle cx="102" cy="150" r="1.5" fill="#1e293b" />
+    <circle cx="122" cy="150" r="1.5" fill="#1e293b" />
+    <circle cx="142" cy="150" r="1.5" fill="#1e293b" />
+    <circle cx="162" cy="150" r="1.5" fill="#1e293b" />
+  </g>
+
+  <g id="mailbox_door">
+
+    <path d="M 178 146 L 186 146 L 186 118 C 186 101.4 182.4 88 178 88 Z" fill="url(#metal_dark)" stroke="#1e293b" stroke-width="4" stroke-linejoin="round" />
+
+
+    <path d="M 178 142 L 182 142 L 182 118 C 182 104 179.5 92 178 92" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.3" />
+
+
+    <rect x="176" y="138" width="10" height="6" rx="2" fill="#94a3b8" stroke="#1e293b" stroke-width="3" />
+    <circle cx="181" cy="141" r="1.5" fill="#1e293b" />
+
+
+    <rect x="176" y="96" width="12" height="8" rx="3" fill="#cbd5e1" stroke="#1e293b" stroke-width="3" />
+    <rect x="176" y="108" width="12" height="8" rx="3" fill="#cbd5e1" stroke="#1e293b" stroke-width="3" />
+
+
+    <path d="M 188 100 L 196 100 L 196 112 L 188 112" fill="none" stroke="#1e293b" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M 188 100 L 196 100 L 196 112 L 188 112" fill="none" stroke="#cbd5e1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+
+  <g id="mailbox_flag">
+
+    <rect x="147" y="78" width="6" height="46" rx="3" fill="#cbd5e1" stroke="#1e293b" stroke-width="3" />
+    <rect x="148.5" y="80" width="1.5" height="42" fill="#ffffff" opacity="0.6" />
+
+
+    <rect x="153" y="78" width="26" height="18" rx="4" fill="url(#flag_red)" stroke="#1e293b" stroke-width="3" />
+    <rect x="155" y="80" width="22" height="6" rx="2" fill="#ffffff" opacity="0.3" />
+
+
+    <rect x="143" y="116" width="14" height="14" rx="4" fill="#94a3b8" stroke="#1e293b" stroke-width="3" />
+    <circle cx="150" cy="123" r="2.5" fill="#1e293b" />
+    <circle cx="149" cy="122" r="1" fill="#ffffff" opacity="0.5" />
+  </g>
+
+  <g id="bird_body">
+
+    <path d="M 98 70 L 74 76 L 82 62 Z" fill="#1e3a8a" stroke="#1e293b" stroke-width="3" stroke-linejoin="round" />
+    <path d="M 96 76 L 72 84 L 80 70 Z" fill="#1e40af" stroke="#1e293b" stroke-width="3" stroke-linejoin="round" />
+    <line x1="78" y1="74" x2="90" y2="70" stroke="#1e293b" stroke-width="1.5" stroke-linecap="round" />
+
+
+    <path d="M 108 84 L 108 90.5 M 104 90.5 L 112 90.5" stroke="#1e293b" stroke-width="3" stroke-linecap="round" />
+    <path d="M 116 84 L 116 88.9 M 112 88.9 L 120 88.9" stroke="#1e293b" stroke-width="3" stroke-linecap="round" />
+
+
+    <path d="M 106 44 C 104 36, 108 34, 108 34 C 106 38, 108 42, 110 44 Z" fill="#1e3a8a" stroke="#1e293b" stroke-width="3" stroke-linejoin="round" />
+    <path d="M 102 45 C 98 38, 102 36, 102 36 C 102 40, 104 43, 106 45 Z" fill="#1e3a8a" stroke="#1e293b" stroke-width="3" stroke-linejoin="round" />
+
+
+    <path d="M 128 64 C 128 50, 118 44, 108 44 C 96 44, 90 54, 90 66 C 90 78, 100 86, 112 86 C 124 86, 128 76, 128 64 Z" fill="url(#bird_grad)" />
+
+
+    <path d="M 92 66 C 92 78, 102 84, 112 84 C 122 84, 126 76, 126 68 C 118 74, 104 74, 94 64 C 93 65, 92 66, 92 66 Z" fill="#fef3c7" />
+    <path d="M 94 72 C 98 80, 106 82, 112 82 C 118 82, 122 78, 124 72 C 116 76, 104 76, 94 72 Z" fill="#fde68a" />
+
+
+    <path d="M 128 64 C 128 50, 118 44, 108 44 C 96 44, 90 54, 90 66 C 90 78, 100 86, 112 86 C 124 86, 128 76, 128 64 Z" fill="none" stroke="#1e293b" stroke-width="4" />
+
+
+    <circle cx="114" cy="58" r="4" fill="#f43f5e" opacity="0.6" />
+
+
+    <path d="M 116 60 C 122 68, 116 78, 104 82 C 92 84, 86 76, 92 66 C 96 56, 110 54, 116 60 Z" fill="#60a5fa" stroke="#1e293b" stroke-width="3" stroke-linejoin="round" />
+    <path d="M 112 62 C 116 68, 112 74, 104 76" fill="none" stroke="#bfdbfe" stroke-width="2" stroke-linecap="round" />
+    <path d="M 108 66 L 96 76 M 112 70 L 100 80 M 106 76 L 98 82" stroke="#1e293b" stroke-width="2" stroke-linecap="round" />
+  </g>
+
+  <g id="bird_beak">
+    <path d="M 126 56 L 138 60 L 126 64 Z" fill="#fbbf24" stroke="#1e293b" stroke-width="3" stroke-linejoin="round" />
+    <path d="M 126 60 L 134 60" stroke="#1e293b" stroke-width="2" stroke-linecap="round" />
+    <path d="M 127 58 L 132 59" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" opacity="0.6" />
+  </g>
+
+  <g id="bird_eye">
+    <circle cx="118" cy="52" r="3.5" fill="#1e293b" />
+    <circle cx="117" cy="50.5" r="1.2" fill="#ffffff" />
+    <circle cx="119.5" cy="52.5" r="0.6" fill="#ffffff" />
+  </g>
+</svg>

@@ -1,0 +1,7 @@
+openai>=2.24,<3
+Pillow>=12,<13
+requests>=2.33,<3
+svgpathtools>=1.7,<2
+playwright>=1.58,<2
+jsonschema>=4.23,<5
+textgrad>=0.1.8,<0.2

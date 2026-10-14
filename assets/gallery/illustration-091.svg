@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 256 256" width="256" height="256" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="floorGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e6a56a" />
+      <stop offset="100%" stop-color="#b36b22" />
+    </linearGradient>
+    <radialGradient id="wallGrad" cx="50%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#3a3a4a" />
+      <stop offset="100%" stop-color="#15151e" />
+    </radialGradient>
+    <radialGradient id="glow" cx="195" cy="45" r="80" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="poleGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2a2a2a" />
+      <stop offset="20%" stop-color="#7a7a7a" />
+      <stop offset="40%" stop-color="#e0e0e0" />
+      <stop offset="60%" stop-color="#5a5a5a" />
+      <stop offset="80%" stop-color="#1a1a1a" />
+      <stop offset="100%" stop-color="#0a0a0a" />
+    </linearGradient>
+    <radialGradient id="ballGrad" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#ffb380" />
+      <stop offset="20%" stop-color="#ff8833" />
+      <stop offset="50%" stop-color="#e65c00" />
+      <stop offset="80%" stop-color="#993300" />
+      <stop offset="100%" stop-color="#4d1a00" />
+    </radialGradient>
+    <radialGradient id="ballInnerShadow" cx="50%" cy="50%" r="50%">
+      <stop offset="60%" stop-color="#000000" stop-opacity="0" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.75" />
+    </radialGradient>
+    <radialGradient id="ballHighlight" cx="25%" cy="25%" r="40%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0" />
+    </radialGradient>
+    <pattern id="bump" width="4" height="4" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="0.8" fill="#000000" opacity="0.2" />
+      <circle cx="2.5" cy="2.5" r="0.8" fill="#ffffff" opacity="0.15" />
+    </pattern>
+    <radialGradient id="vignette" cx="50%" cy="50%" r="75%">
+      <stop offset="40%" stop-color="#000000" stop-opacity="0" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.6" />
+    </radialGradient>
+  </defs>
+
+  <g id="floor">
+
+    <rect x="0" y="180" width="256" height="76" fill="url(#floorGrad)" />
+
+
+    <g stroke="#8a4a0f" stroke-width="1.5" opacity="0.4">
+      <line x1="173" y1="20" x2="-127" y2="256" />
+      <line x1="173" y1="20" x2="-87" y2="256" />
+      <line x1="173" y1="20" x2="-47" y2="256" />
+      <line x1="173" y1="20" x2="-7" y2="256" />
+      <line x1="173" y1="20" x2="33" y2="256" />
+      <line x1="173" y1="20" x2="73" y2="256" />
+      <line x1="173" y1="20" x2="113" y2="256" />
+      <line x1="173" y1="20" x2="153" y2="256" />
+      <line x1="173" y1="20" x2="193" y2="256" />
+      <line x1="173" y1="20" x2="233" y2="256" />
+      <line x1="173" y1="20" x2="273" y2="256" />
+      <line x1="173" y1="20" x2="313" y2="256" />
+      <line x1="173" y1="20" x2="353" y2="256" />
+      <line x1="173" y1="20" x2="393" y2="256" />
+      <line x1="173" y1="20" x2="433" y2="256" />
+    </g>
+    <path d="M0 180 H256 M0 185 H256 M0 191 H256 M0 198 H256 M0 206 H256 M0 215 H256 M0 225 H256 M0 236 H256 M0 249 H256" stroke="#8a4a0f" stroke-width="1" opacity="0.3" />
+
+
+    <circle cx="100" cy="250" r="25" fill="url(#ballGrad)" opacity="0.15" />
+    <circle cx="100" cy="250" r="25" fill="url(#bump)" opacity="0.15" />
+    <rect x="205" y="215" width="10" height="41" fill="#000000" opacity="0.1" />
+
+
+    <rect x="0" y="0" width="256" height="180" fill="url(#wallGrad)" />
+    <g opacity="0.05">
+      <line x1="20" y1="0" x2="20" y2="180" stroke="#ffffff" stroke-width="1" />
+      <line x1="60" y1="0" x2="60" y2="180" stroke="#ffffff" stroke-width="1" />
+      <line x1="100" y1="0" x2="100" y2="180" stroke="#ffffff" stroke-width="1" />
+      <line x1="140" y1="0" x2="140" y2="180" stroke="#ffffff" stroke-width="1" />
+      <line x1="180" y1="0" x2="180" y2="180" stroke="#ffffff" stroke-width="1" />
+      <line x1="220" y1="0" x2="220" y2="180" stroke="#ffffff" stroke-width="1" />
+      <line x1="0" y1="30" x2="256" y2="30" stroke="#ffffff" stroke-width="1" />
+      <line x1="0" y1="60" x2="256" y2="60" stroke="#ffffff" stroke-width="1" />
+      <line x1="0" y1="90" x2="256" y2="90" stroke="#ffffff" stroke-width="1" />
+      <line x1="0" y1="120" x2="256" y2="120" stroke="#ffffff" stroke-width="1" />
+      <line x1="0" y1="150" x2="256" y2="150" stroke="#ffffff" stroke-width="1" />
+    </g>
+    <circle cx="195" cy="45" r="80" fill="url(#glow)" />
+    <rect x="0" y="175" width="256" height="5" fill="#0a0a0f" />
+    <rect x="0" y="173" width="256" height="2" fill="#1a1a24" />
+  </g>
+
+  <g id="court_line">
+
+    <rect x="0" y="180" width="256" height="35" fill="#1a5b92" opacity="0.7" />
+
+
+    <polygon points="133,215 213,215 221.4,256 124.6,256" fill="#1a5b92" opacity="0.7" />
+
+
+    <line x1="0" y1="215" x2="256" y2="215" stroke="#ffffff" stroke-width="2.5" opacity="0.9" />
+
+
+    <polygon points="133,215 213,215 221.4,256 124.6,256" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.9" />
+
+
+    <path d="M 153 215 A 20 12 0 0 0 193 215" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.9" />
+
+
+    <path d="M 30 215 Q 30 300 173 300 Q 316 300 316 215" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.9" />
+
+
+    <path d="M 131 225 L 126 225 M 129 235 L 124 235 M 127 245 L 122 245 M 215 225 L 220 225 M 217 235 L 222 235 M 219 245 L 224 245" stroke="#ffffff" stroke-width="2" opacity="0.9" />
+  </g>
+
+  <g id="pole">
+
+    <polygon points="210,215 256,240 256,225 225,215" fill="#000000" opacity="0.3" />
+
+
+    <path d="M 200 195 L 220 195 L 225 215 L 195 215 Z" fill="#222222" />
+    <path d="M 195 215 L 225 215 L 225 220 L 195 220 Z" fill="#111111" />
+    <path d="M 200 195 L 220 195 L 221 197 L 199 197 Z" fill="#555555" />
+
+
+    <rect x="205" y="40" width="10" height="160" fill="url(#poleGrad)" />
+
+
+    <polygon points="205,45 195,40 195,50 205,55" fill="#333333" />
+    <polygon points="205,45 195,40 195,42 205,47" fill="#666666" />
+    <polygon points="205,65 195,60 195,70 205,75" fill="#333333" />
+    <polygon points="205,65 195,60 195,62 205,67" fill="#666666" />
+  </g>
+
+  <g id="backboard">
+
+    <polygon points="195,25 215,35 215,85 195,75" fill="#000000" opacity="0.4" />
+
+
+    <polygon points="185,15 205,25 205,75 185,65" fill="#e0f7fa" opacity="0.5" />
+
+
+    <polygon points="185,15 183,14 183,64 185,65" fill="#a0c4c9" opacity="0.8" />
+    <polygon points="183,14 203,24 205,25 185,15" fill="#ffffff" opacity="0.9" />
+
+
+    <polygon points="185,15 205,25 205,75 185,65" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linejoin="round" />
+
+
+    <polygon points="191,48 199,52 199,67 191,63" fill="none" stroke="#ff2200" stroke-width="2" stroke-linejoin="round" />
+
+
+    <polygon points="185,15 192,18.5 192,68.5 185,65" fill="#ffffff" opacity="0.3" />
+    <polygon points="195,20 198,21.5 198,71.5 195,70" fill="#ffffff" opacity="0.15" />
+  </g>
+
+  <g id="rim">
+
+    <path d="M 193 58 L 197 60 L 197 65 L 193 63 Z" fill="#881100" />
+    <path d="M 193 58 L 195 59 L 195 64 L 193 63 Z" fill="#cc2200" />
+
+
+    <ellipse cx="173" cy="61" rx="22" ry="7" fill="none" stroke="#881100" stroke-width="3" />
+    <ellipse cx="173" cy="60" rx="22" ry="7" fill="none" stroke="#ff4400" stroke-width="2.5" />
+    <ellipse cx="173" cy="59.5" rx="21" ry="6" fill="none" stroke="#ffaa88" stroke-width="1" opacity="0.9" />
+
+
+    <path d="M 153 62 L 153 65 M 163 66 L 163 69 M 173 67 L 173 70 M 183 66 L 183 69 M 193 62 L 193 65" stroke="#ffaa88" stroke-width="1" />
+  </g>
+
+  <g id="net">
+
+    <path d="M 151 60 Q 173 95 195 60 Z" fill="#ffffff" opacity="0.1" />
+
+
+    <g stroke="#ffffff" stroke-width="1.2" opacity="0.85" stroke-linecap="round">
+      <path d="M 153 62 L 160 85" />
+      <path d="M 160 65 L 166 88" />
+      <path d="M 168 67 L 173 90" />
+      <path d="M 178 67 L 180 88" />
+      <path d="M 188 64 L 186 85" />
+      <path d="M 193 62 L 186 85" />
+      <path d="M 186 65 L 180 88" />
+      <path d="M 178 67 L 173 90" />
+      <path d="M 168 67 L 166 88" />
+      <path d="M 158 64 L 160 85" />
+    </g>
+
+
+    <path d="M 160 85 Q 173 93 186 85" fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.9" />
+  </g>
+
+  <g id="basketball">
+
+    <ellipse cx="110" cy="223" rx="24" ry="7" fill="#000000" opacity="0.4" />
+    <ellipse cx="106" cy="222" rx="15" ry="4" fill="#000000" opacity="0.6" />
+
+
+    <circle cx="100" cy="200" r="25" fill="url(#ballGrad)" />
+    <circle cx="100" cy="200" r="25" fill="url(#bump)" />
+
+
+    <g transform="translate(100, 200) rotate(-20)">
+      <path d="M -24.5 0 A 25 8 0 0 0 24.5 0" fill="none" stroke="#2a0d00" stroke-width="1.5" />
+      <path d="M 0 -24.5 A 8 25 0 0 0 0 24.5" fill="none" stroke="#2a0d00" stroke-width="1.5" />
+      <path d="M -15 -20 A 18 18 0 0 1 -15 20" fill="none" stroke="#2a0d00" stroke-width="1.5" />
+      <path d="M 15 -20 A 18 18 0 0 0 15 20" fill="none" stroke="#2a0d00" stroke-width="1.5" />
+    </g>
+
+
+    <circle cx="100" cy="200" r="25" fill="url(#ballInnerShadow)" />
+    <circle cx="100" cy="200" r="25" fill="url(#ballHighlight)" />
+  </g>
+
+
+  <rect x="0" y="0" width="256" height="256" fill="url(#vignette)" pointer-events="none" />
+</svg>
